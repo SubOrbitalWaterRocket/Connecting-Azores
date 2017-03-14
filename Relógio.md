@@ -10,7 +10,9 @@ void setup()
 //Aciona o relogio
 rtc.halt(false);
  
-//As linhas abaixo acertam a data e hora do modulo, depois de configurar a hora do relógio tem de ser comentadas
+//As linhas abaixo acertam a data e hora do modulo, depois de configurar a hora do relógio tem de ser comentadas "Hora : 27:85:85 Data : 85.85.@5 5.85.@5 " isto significa erro
+//O relógio funciona a 3.3v
+
 
 rtc.setDOW(TUESDAY); //Define o dia da semana
 rtc.setTime(11, 18, 00); //Define o horario
