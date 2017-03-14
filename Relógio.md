@@ -10,8 +10,8 @@ void setup()
 //Aciona o relogio
 rtc.halt(false);
  
-//As linhas abaixo acertam a data e hora do modulo
-//e podem ser comentada apos a primeira utilizacao
+//As linhas abaixo acertam a data e hora do modulo, depois de configurar a hora do relógio tem de ser comentadas
+
 rtc.setDOW(TUESDAY); //Define o dia da semana
 rtc.setTime(11, 18, 00); //Define o horario
 rtc.setDate(7, 3, 2017); //Define o dia, mes e ano
